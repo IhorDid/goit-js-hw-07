@@ -25,7 +25,7 @@ const images = [
   },
 ];
 const galleryAll = document.querySelector('.gallery');
-let galleryItemsHTML = '';
+let galleryItemsHTML = ' ';
 
 images.forEach(({ url, alt }) => {
   galleryItemsHTML += `
@@ -35,4 +35,4 @@ images.forEach(({ url, alt }) => {
   `;
 });
 
-galleryAll.insertAdjacentHTML('beforeend', galleryItemsHTML);
+galleryAll.insertAdjacentHTML('afterbegin', galleryItemsHTML);
