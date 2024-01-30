@@ -21,3 +21,11 @@ ul {
   display: flex;
   gap: 10px;
 }
+
+#boxes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 24px;
+  padding-top: 20px;
+}
